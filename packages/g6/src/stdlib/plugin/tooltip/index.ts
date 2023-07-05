@@ -283,7 +283,6 @@ export default class Tooltip extends Base {
         const fixToNode = this.options.fixToNode;
         //handle `fixToNode` config
         if (
-            e.itemType &&
             e.itemType === 'node' &&
             fixToNode
         ) {
